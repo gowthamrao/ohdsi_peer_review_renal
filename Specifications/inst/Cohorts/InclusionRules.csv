@@ -1,0 +1,21 @@
+cohortName,ruleSequence,ruleName,cohortId
+8506,0,Minimum prior observation period of 365 days,8506
+8506,1,No ESKD at baseline,8506
+8506,2,No chronic dialysis at baseline,8506
+8506,3,Washout period with no AKI codes,8506
+8507,0,Minimum prior observation period of 365 days,8507
+8507,1,No ESKD at baseline,8507
+8507,2,No chronic dialysis at baseline,8507
+8507,3,Washout period with no AKI codes,8507
+8533,0,Minimum prior observation period of 365 days,8533
+8533,1,No ESKD at baseline,8533
+8533,2,No chronic dialysis at baseline,8533
+8533,3,Washout period with no AKI codes,8533
+8537,0,Minimum prior observation period of 365 days,8537
+8537,1,No ESKD at baseline,8537
+8537,2,No chronic dialysis at baseline,8537
+8563,0,Minimum prior observation period of 365 days,8563
+8563,1,No ESKD at baseline,8563
+8563,2,No chronic dialysis at baseline (-365 to 7 days) ,8563
+8563,3,No Kidney Transplant any time prior ,8563
+8563,4,Washout period with no AKI codes,8563
