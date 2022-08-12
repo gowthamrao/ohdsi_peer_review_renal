@@ -1,0 +1,1477 @@
+{
+	"cdmVersionRange" : ">=5.0.0",
+	"PrimaryCriteria" : {
+		"CriteriaList" : [
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 0.10000000000000000555112,
+																"Op" : "bt",
+																"Extent" : 1.3500000000000000888178
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 4121396,
+																	"CONCEPT_NAME" : "mg/dL",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258797006",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "SNOMED",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8840,
+																	"CONCEPT_NAME" : "milligram per deciliter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "mg/dL",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 2,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 1.6499999999999999111822,
+											"Op" : "bt",
+											"Extent" : 30
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 4121396,
+												"CONCEPT_NAME" : "mg/dL",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258797006",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "SNOMED",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8840,
+												"CONCEPT_NAME" : "milligram per deciliter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "mg/dL",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 0.10000000000000000555112,
+																"Op" : "bt",
+																"Extent" : 1.3500000000000000888178
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 4121396,
+																	"CONCEPT_NAME" : "mg/dL",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258797006",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "SNOMED",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8840,
+																	"CONCEPT_NAME" : "milligram per deciliter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "mg/dL",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 2.0249999999999999111822,
+											"Op" : "bt",
+											"Extent" : 30
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 4121396,
+												"CONCEPT_NAME" : "mg/dL",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258797006",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "SNOMED",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8840,
+												"CONCEPT_NAME" : "milligram per deciliter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "mg/dL",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 0.10000000000000000555112,
+																"Op" : "bt",
+																"Extent" : 2
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 4121396,
+																	"CONCEPT_NAME" : "mg/dL",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258797006",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "SNOMED",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8840,
+																	"CONCEPT_NAME" : "milligram per deciliter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "mg/dL",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 3,
+											"Op" : "bt",
+											"Extent" : 30
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 4121396,
+												"CONCEPT_NAME" : "mg/dL",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258797006",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "SNOMED",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8840,
+												"CONCEPT_NAME" : "milligram per deciliter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "mg/dL",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 0.10000000000000000555112,
+																"Op" : "bt",
+																"Extent" : 3
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 4121396,
+																	"CONCEPT_NAME" : "mg/dL",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258797006",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "SNOMED",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8840,
+																	"CONCEPT_NAME" : "milligram per deciliter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "mg/dL",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 4.5,
+											"Op" : "bt",
+											"Extent" : 30
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 4121396,
+												"CONCEPT_NAME" : "mg/dL",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258797006",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "SNOMED",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8840,
+												"CONCEPT_NAME" : "milligram per deciliter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "mg/dL",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 0.10000000000000000555112,
+																"Op" : "bt",
+																"Extent" : 5
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 4121396,
+																	"CONCEPT_NAME" : "mg/dL",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258797006",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "SNOMED",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8840,
+																	"CONCEPT_NAME" : "milligram per deciliter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "mg/dL",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 7.5,
+											"Op" : "bt",
+											"Extent" : 30
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 4121396,
+												"CONCEPT_NAME" : "mg/dL",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258797006",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "SNOMED",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8840,
+												"CONCEPT_NAME" : "milligram per deciliter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "mg/dL",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 9,
+																"Op" : "bt",
+																"Extent" : 119
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 3194935,
+																	"CONCEPT_NAME" : "Micromole/liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258814008",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "Nebraska Lexicon",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8749,
+																	"CONCEPT_NAME" : "micromole per liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "umol/L",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 2,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 146,
+											"Op" : "bt",
+											"Extent" : 2652
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 3194935,
+												"CONCEPT_NAME" : "Micromole/liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258814008",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "Nebraska Lexicon",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8749,
+												"CONCEPT_NAME" : "micromole per liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "umol/L",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 9,
+																"Op" : "bt",
+																"Extent" : 119
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 3194935,
+																	"CONCEPT_NAME" : "Micromole/liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258814008",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "Nebraska Lexicon",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8749,
+																	"CONCEPT_NAME" : "micromole per liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "umol/L",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 179,
+											"Op" : "bt",
+											"Extent" : 2652
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 3194935,
+												"CONCEPT_NAME" : "Micromole/liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258814008",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "Nebraska Lexicon",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8749,
+												"CONCEPT_NAME" : "micromole per liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "umol/L",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 9,
+																"Op" : "bt",
+																"Extent" : 177
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 3194935,
+																	"CONCEPT_NAME" : "Micromole/liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258814008",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "Nebraska Lexicon",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8749,
+																	"CONCEPT_NAME" : "micromole per liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "umol/L",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 265,
+											"Op" : "bt",
+											"Extent" : 2652
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 3194935,
+												"CONCEPT_NAME" : "Micromole/liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258814008",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "Nebraska Lexicon",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8749,
+												"CONCEPT_NAME" : "micromole per liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "umol/L",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 9,
+																"Op" : "bt",
+																"Extent" : 265
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 3194935,
+																	"CONCEPT_NAME" : "Micromole/liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258814008",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "Nebraska Lexicon",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8749,
+																	"CONCEPT_NAME" : "micromole per liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "umol/L",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 398,
+											"Op" : "bt",
+											"Extent" : 2652
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 3194935,
+												"CONCEPT_NAME" : "Micromole/liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258814008",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "Nebraska Lexicon",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8749,
+												"CONCEPT_NAME" : "micromole per liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "umol/L",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			},
+			{
+				"Measurement" : {
+					"CorrelatedCriteria" : {
+						"Type" : "ANY",
+						"CriteriaList" : [
+							{
+								"Criteria" : {
+									"Measurement" : {
+										"CorrelatedCriteria" : {
+											"Type" : "ALL",
+											"CriteriaList" : [
+												{
+													"Criteria" : {
+														"Measurement" : {
+															"CodesetId" : 6,
+															"MeasurementTypeExclude" : false,
+															"ValueAsNumber" : {
+																"Value" : 9,
+																"Op" : "bt",
+																"Extent" : 442
+															},
+															"Unit" : [
+																{
+																	"CONCEPT_ID" : 3194935,
+																	"CONCEPT_NAME" : "Micromole/liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "258814008",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "Nebraska Lexicon",
+																	"CONCEPT_CLASS_ID" : null
+																},
+																{
+																	"CONCEPT_ID" : 8749,
+																	"CONCEPT_NAME" : "micromole per liter",
+																	"STANDARD_CONCEPT" : null,
+																	"STANDARD_CONCEPT_CAPTION" : "Unknown",
+																	"INVALID_REASON" : null,
+																	"INVALID_REASON_CAPTION" : "Unknown",
+																	"CONCEPT_CODE" : "umol/L",
+																	"DOMAIN_ID" : "Unit",
+																	"VOCABULARY_ID" : "UCUM",
+																	"CONCEPT_CLASS_ID" : null
+																}
+															]
+														}
+													},
+													"StartWindow" : {
+														"Start" : {
+															"Days" : 7,
+															"Coeff" : -1
+														},
+														"End" : {
+															"Days" : 0,
+															"Coeff" : -1
+														},
+														"UseIndexEnd" : false,
+														"UseEventEnd" : false
+													},
+													"RestrictVisit" : false,
+													"IgnoreObservationPeriod" : false,
+													"Occurrence" : {
+														"Type" : 2,
+														"Count" : 1,
+														"IsDistinct" : false
+													}
+												}
+											],
+											"DemographicCriteriaList" : [],
+											"Groups" : []
+										},
+										"CodesetId" : 6,
+										"MeasurementTypeExclude" : false,
+										"ValueAsNumber" : {
+											"Value" : 663,
+											"Op" : "bt",
+											"Extent" : 2652
+										},
+										"Unit" : [
+											{
+												"CONCEPT_ID" : 3194935,
+												"CONCEPT_NAME" : "Micromole/liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "258814008",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "Nebraska Lexicon",
+												"CONCEPT_CLASS_ID" : null
+											},
+											{
+												"CONCEPT_ID" : 8749,
+												"CONCEPT_NAME" : "micromole per liter",
+												"STANDARD_CONCEPT" : null,
+												"STANDARD_CONCEPT_CAPTION" : "Unknown",
+												"INVALID_REASON" : null,
+												"INVALID_REASON_CAPTION" : "Unknown",
+												"CONCEPT_CODE" : "umol/L",
+												"DOMAIN_ID" : "Unit",
+												"VOCABULARY_ID" : "UCUM",
+												"CONCEPT_CLASS_ID" : null
+											}
+										]
+									}
+								},
+								"StartWindow" : {
+									"Start" : {
+										"Days" : 0,
+										"Coeff" : -1
+									},
+									"End" : {
+										"Days" : 0,
+										"Coeff" : 1
+									},
+									"UseIndexEnd" : false,
+									"UseEventEnd" : false
+								},
+								"RestrictVisit" : false,
+								"IgnoreObservationPeriod" : false,
+								"Occurrence" : {
+									"Type" : 2,
+									"Count" : 1,
+									"IsDistinct" : false
+								}
+							}
+						],
+						"DemographicCriteriaList" : [],
+						"Groups" : []
+					},
+					"CodesetId" : 6,
+					"OccurrenceStartDate" : {
+						"Value" : "2012-01-01",
+						"Op" : "gte"
+					},
+					"MeasurementTypeExclude" : false
+				}
+			}
+		],
+		"ObservationWindow" : {
+			"PriorDays" : 0,
+			"PostDays" : 0
+		},
+		"PrimaryCriteriaLimit" : {
+			"Type" : "All"
+		}
+	},
+	"ConceptSets" : [
+		{
+			"id" : 6,
+			"name" : "Serum creatinine",
+			"expression" : {
+				"items" : [
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4013964,
+							"CONCEPT_NAME" : "Creatinine measurement, serum",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "113075003",
+							"DOMAIN_ID" : "Measurement",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Procedure"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : false,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 37392176,
+							"CONCEPT_NAME" : "Serum creatinine level",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1000731000000107",
+							"DOMAIN_ID" : "Measurement",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Observable Entity"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					}
+				]
+			}
+		}
+	],
+	"QualifiedLimit" : {
+		"Type" : "All"
+	},
+	"ExpressionLimit" : {
+		"Type" : "All"
+	},
+	"InclusionRules" : [],
+	"EndStrategy" : {
+		"DateOffset" : {
+			"DateField" : "StartDate",
+			"Offset" : 0
+		}
+	},
+	"CensoringCriteria" : [],
+	"CollapseSettings" : {
+		"CollapseType" : "ERA",
+		"EraPad" : 0
+	},
+	"CensorWindow" : {}
+}

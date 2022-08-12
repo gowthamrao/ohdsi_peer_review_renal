@@ -185,50 +185,8 @@
 			}
 		},
 		{
-			"id" : 6,
-			"name" : "Serum creatinine",
-			"expression" : {
-				"items" : [
-					{
-						"concept" : {
-							"CONCEPT_ID" : 4013964,
-							"CONCEPT_NAME" : "Creatinine measurement, serum",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "113075003",
-							"DOMAIN_ID" : "Measurement",
-							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Procedure"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : false,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 37392176,
-							"CONCEPT_NAME" : "Serum creatinine level",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1000731000000107",
-							"DOMAIN_ID" : "Measurement",
-							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Observable Entity"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					}
-				]
-			}
-		},
-		{
 			"id" : 7,
-			"name" : "\n\nDialysis procedure at a medicare certified esrd facility for acute kidney injury without esrd",
+			"name" : "Dialysis procedure at a Medicare certified ESRD facility for acute kidney injury without ESRD",
 			"expression" : {
 				"items" : [
 					{
@@ -253,7 +211,7 @@
 		},
 		{
 			"id" : 8,
-			"name" : "erythropoietin like drugs \n",
+			"name" : "Erythropoietin like drugs\n",
 			"expression" : {
 				"items" : [
 					{
@@ -312,7 +270,7 @@
 		},
 		{
 			"id" : 9,
-			"name" : "kidney transplant conditions ",
+			"name" : "Kidney transplant conditions",
 			"expression" : {
 				"items" : [
 					{
@@ -354,7 +312,7 @@
 		},
 		{
 			"id" : 10,
-			"name" : "kidney transplant procedure ",
+			"name" : "Kidney transplant procedure",
 			"expression" : {
 				"items" : [
 					{
@@ -570,8 +528,8 @@
 			}
 		},
 		{
-			"name" : "No chronic dialysis at baseline (-365 to 7 days) ",
-			"description" : "To exclude all patients receiving chronic dialysis defined as more than 3 recorded events of dialysis in the 1 year- 7 days before index date",
+			"name" : "No chronic dialysis at baseline (-365 to 8 days) ",
+			"description" : "To exclude all patients receiving chronic dialysis defined as more than 3 recorded events of dialysis in the 1 year- 8 days before index date, or one erythropoietin dose and dialysis in same year",
 			"expression" : {
 				"Type" : "ANY",
 				"CriteriaList" : [
@@ -588,7 +546,7 @@
 								"Coeff" : -1
 							},
 							"End" : {
-								"Days" : 7,
+								"Days" : 8,
 								"Coeff" : -1
 							},
 							"UseIndexEnd" : false,
@@ -621,14 +579,14 @@
 										"Coeff" : -1
 									},
 									"End" : {
-										"Days" : 7,
+										"Days" : 8,
 										"Coeff" : -1
 									},
 									"UseIndexEnd" : false,
 									"UseEventEnd" : false
 								},
 								"RestrictVisit" : false,
-								"IgnoreObservationPeriod" : false,
+								"IgnoreObservationPeriod" : true,
 								"Occurrence" : {
 									"Type" : 2,
 									"Count" : 1,
@@ -648,14 +606,14 @@
 										"Coeff" : -1
 									},
 									"End" : {
-										"Days" : 7,
+										"Days" : 8,
 										"Coeff" : -1
 									},
 									"UseIndexEnd" : false,
 									"UseEventEnd" : false
 								},
 								"RestrictVisit" : false,
-								"IgnoreObservationPeriod" : false,
+								"IgnoreObservationPeriod" : true,
 								"Occurrence" : {
 									"Type" : 2,
 									"Count" : 1,
@@ -693,7 +651,7 @@
 							"UseEventEnd" : false
 						},
 						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : false,
+						"IgnoreObservationPeriod" : true,
 						"Occurrence" : {
 							"Type" : 0,
 							"Count" : 0,
@@ -719,7 +677,7 @@
 							"UseEventEnd" : false
 						},
 						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : false,
+						"IgnoreObservationPeriod" : true,
 						"Occurrence" : {
 							"Type" : 0,
 							"Count" : 0,
@@ -784,7 +742,7 @@
 							"UseEventEnd" : false
 						},
 						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : false,
+						"IgnoreObservationPeriod" : true,
 						"Occurrence" : {
 							"Type" : 0,
 							"Count" : 0,

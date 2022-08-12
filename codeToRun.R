@@ -54,11 +54,9 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(
 baseUrl <- Sys.getenv("BaseUrl")
 ROhdsiWebApi::authorizeWebApi(baseUrl = baseUrl,
                               authMethod = "windows")
-targetCohortIds <- c(8563,
-                     8507,
-                     8533,
-                     8537,
-                     8506)
+targetCohortIds <- c(8976,
+                     8975,
+                     8563)
 cohortDefinitionSetJnj <-
   ROhdsiWebApi::exportCohortDefinitionSet(
     baseUrl = baseUrl,
