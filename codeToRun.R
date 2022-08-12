@@ -1,114 +1,112 @@
 baseFolder <-
   file.path(dirname(rstudioapi::getActiveDocumentContext()$path))
 studyOutputFolder <- file.path(baseFolder, "results")
-unlink(
-  x = file.path(baseFolder, "Specifications", "inst"),
-  recursive = TRUE,
-  force = TRUE
-)
-dir.create(
-  path = file.path(baseFolder, "Specifications", "inst"),
-  showWarnings = FALSE,
-  recursive = TRUE
-)
-
-# from public atlas
-baseUrl <- Sys.getenv("ohdsiAtlasPhenotype")
-ROhdsiWebApi::authorizeWebApi(
-  baseUrl = baseUrl,
-  authMethod = "db",
-  webApiUsername = keyring::key_get("ohdsiAtlasPhenotypeUser"),
-  webApiPassword = keyring::key_get("ohdsiAtlasPhenotypePassword")
-)
-targetCohortIds <- c(66, 42, 39, 181, 204, 203, 202)
-cohortDefinitionSetOhdsi <-
-  ROhdsiWebApi::exportCohortDefinitionSet(
-    baseUrl = baseUrl,
-    cohortIds = c(targetCohortIds),
-    generateStats = TRUE
-  )
-
-readr::write_excel_csv(
-  x = cohortDefinitionSetOhdsi %>%
-    dplyr::select(.data$cohortId,
-                  .data$atlasId,
-                  .data$cohortName) %>%
-    dplyr::arrange(.data$cohortId),
-  file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
-  na = "",
-  append = FALSE,
-  quote = "all"
-)
-
-ROhdsiWebApi::insertCohortDefinitionSetInPackage(
-  fileName = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
-  baseUrl = baseUrl,
-  jsonFolder = file.path(baseFolder, "Specifications", "inst", "Cohorts"),
-  sqlFolder = file.path(baseFolder, "Specifications", "inst", "sql", "sql_server"),
-  packageName = "",
-  generateStats = TRUE,
-  insertCohortCreationR = FALSE
-)
-
-# JNJ atlas
-baseUrl <- Sys.getenv("BaseUrl")
-ROhdsiWebApi::authorizeWebApi(baseUrl = baseUrl,
-                              authMethod = "windows")
-targetCohortIds <- c(8976,
-                     8975,
-                     8563)
-cohortDefinitionSetJnj <-
-  ROhdsiWebApi::exportCohortDefinitionSet(
-    baseUrl = baseUrl,
-    cohortIds = c(targetCohortIds),
-    generateStats = TRUE
-  )
-
-readr::write_excel_csv(
-  x = cohortDefinitionSetJnj %>%
-    dplyr::select(.data$cohortId,
-                  .data$atlasId,
-                  .data$cohortName) %>%
-    dplyr::arrange(.data$cohortId),
-  file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
-  na = "",
-  append = FALSE,
-  quote = "all"
-)
-
-ROhdsiWebApi::insertCohortDefinitionSetInPackage(
-  fileName = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
-  baseUrl = baseUrl,
-  jsonFolder = file.path(baseFolder, "Specifications", "inst", "Cohorts"),
-  sqlFolder = file.path(baseFolder, "Specifications", "inst", "sql", "sql_server"),
-  packageName = "",
-  generateStats = TRUE,
-  insertCohortCreationR = FALSE
-)
-
-
-readr::write_excel_csv(
-  x = dplyr::bind_rows(cohortDefinitionSetJnj,
-                       cohortDefinitionSetOhdsi) %>%
-    dplyr::select(.data$cohortId,
-                  .data$atlasId,
-                  .data$cohortName) %>%
-    dplyr::arrange(.data$cohortId),
-  file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
-  na = "",
-  append = FALSE,
-  quote = "all"
-)
+# unlink(
+#   x = file.path(baseFolder, "Specifications", "inst"),
+#   recursive = TRUE,
+#   force = TRUE
+# )
+# dir.create(
+#   path = file.path(baseFolder, "Specifications", "inst"),
+#   showWarnings = FALSE,
+#   recursive = TRUE
+# )
+# 
+# # from public atlas
+# baseUrl <- Sys.getenv("ohdsiAtlasPhenotype")
+# ROhdsiWebApi::authorizeWebApi(
+#   baseUrl = baseUrl,
+#   authMethod = "db",
+#   webApiUsername = keyring::key_get("ohdsiAtlasPhenotypeUser"),
+#   webApiPassword = keyring::key_get("ohdsiAtlasPhenotypePassword")
+# )
+# targetCohortIds <- c(66, 42, 39, 181, 204, 203, 202)
+# cohortDefinitionSetOhdsi <-
+#   ROhdsiWebApi::exportCohortDefinitionSet(
+#     baseUrl = baseUrl,
+#     cohortIds = c(targetCohortIds),
+#     generateStats = TRUE
+#   )
+# 
+# readr::write_excel_csv(
+#   x = cohortDefinitionSetOhdsi %>%
+#     dplyr::select(.data$cohortId,
+#                   .data$atlasId,
+#                   .data$cohortName) %>%
+#     dplyr::arrange(.data$cohortId),
+#   file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
+#   na = "",
+#   append = FALSE,
+#   quote = "all"
+# )
+# 
+# ROhdsiWebApi::insertCohortDefinitionSetInPackage(
+#   fileName = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
+#   baseUrl = baseUrl,
+#   jsonFolder = file.path(baseFolder, "Specifications", "inst", "Cohorts"),
+#   sqlFolder = file.path(baseFolder, "Specifications", "inst", "sql", "sql_server"),
+#   packageName = "",
+#   generateStats = TRUE,
+#   insertCohortCreationR = FALSE
+# )
+# 
+# # JNJ atlas
+# baseUrl <- Sys.getenv("BaseUrl")
+# ROhdsiWebApi::authorizeWebApi(baseUrl = baseUrl,
+#                               authMethod = "windows")
+# targetCohortIds <- c(8976,
+#                      8975,
+#                      8563)
+# cohortDefinitionSetJnj <-
+#   ROhdsiWebApi::exportCohortDefinitionSet(
+#     baseUrl = baseUrl,
+#     cohortIds = c(targetCohortIds),
+#     generateStats = TRUE
+#   )
+# 
+# readr::write_excel_csv(
+#   x = cohortDefinitionSetJnj %>%
+#     dplyr::select(.data$cohortId,
+#                   .data$atlasId,
+#                   .data$cohortName) %>%
+#     dplyr::arrange(.data$cohortId),
+#   file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
+#   na = "",
+#   append = FALSE,
+#   quote = "all"
+# )
+# 
+# ROhdsiWebApi::insertCohortDefinitionSetInPackage(
+#   fileName = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
+#   baseUrl = baseUrl,
+#   jsonFolder = file.path(baseFolder, "Specifications", "inst", "Cohorts"),
+#   sqlFolder = file.path(baseFolder, "Specifications", "inst", "sql", "sql_server"),
+#   packageName = "",
+#   generateStats = TRUE,
+#   insertCohortCreationR = FALSE
+# )
+# 
+# 
+# readr::write_excel_csv(
+#   x = dplyr::bind_rows(cohortDefinitionSetJnj,
+#                        cohortDefinitionSetOhdsi) %>%
+#     dplyr::select(.data$cohortId,
+#                   .data$atlasId,
+#                   .data$cohortName) %>%
+#     dplyr::arrange(.data$cohortId),
+#   file = file.path(baseFolder, "Specifications", "inst", "Cohorts.csv"),
+#   na = "",
+#   append = FALSE,
+#   quote = "all"
+# )
 
 cohortTableNames <-
   CohortGenerator::getCohortTableNames(cohortTable = "ohdsi_aki")
 
-databaseIds <- cdmSources$database %>% unique() %>% sort()
-databaseIds <-
-  databaseIds[stringr::str_detect(string = databaseIds,
-                                  pattern = "covid|actelion|1715|aurum|ses|preimier|symphony|verity|premier",
-                                  negate = TRUE)]
-databaseIds <- databaseIds[nchar(databaseIds) > 3]
+databaseIds <- c(
+  "cprd", "ims_australia_lpd", "ims_france", "ims_germany", "iqvia_amb_emr", "iqvia_pharmetrics_plus",
+  "jmdc", "optum_ehr", "optum_extended_dod", "truven_ccae", "truven_mdcd", "truven_mdcr"
+)
 
 for (i in (1:length(databaseIds))) {
   cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
@@ -165,10 +163,6 @@ for (i in (1:length(databaseIds))) {
              showWarnings = FALSE,
              recursive = TRUE)
   
-  
-  
-  
-  
   CohortDiagnostics::executeDiagnostics(
     cohortDefinitionSet = cohortDefinitionSet,
     exportFolder = cohortDiagnosticsExportFolder,
@@ -179,7 +173,7 @@ for (i in (1:length(databaseIds))) {
     connectionDetails = connectionDetails,
     cdmDatabaseSchema = cdmSource$cdmDatabaseSchema,
     cohortTableNames = cohortTableNames,
-    minCellCount = 0,
+    minCellCount = 5,
     runTimeSeries = FALSE,
     runVisitContext = TRUE,
     runIncidenceRate = TRUE,
